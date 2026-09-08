@@ -13,15 +13,11 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({
   onOpenPrivacy,
 }) => {
   return (
-    <div className="flex-1 flex flex-col justify-between w-full max-w-sm mx-auto px-4 py-6 select-none">
+    <div className="flex-1 flex flex-col justify-between w-full max-w-sm mx-auto px-4 pt-4 pb-8 select-none">
       {/* Top Brand Header */}
-      <div className="flex flex-col items-center text-center mt-2 mb-4">
-        <div className="w-16 h-16 rounded-2xl bg-white shadow-sm flex items-center justify-center p-2 mb-3 transition-transform active:scale-95 duration-200 border border-slate-100">
-          <img
-            alt="LiveVolume Logo"
-            className="w-full h-full object-contain rounded-xl"
-            src={ASSETS.logo}
-          />
+      <div className="flex flex-col items-center text-center mt-1 mb-3">
+        <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-sky-400 shadow-md shadow-blue-500/25 flex items-center justify-center mb-2 transition-transform active:scale-95 duration-200">
+          <span className="material-symbols-outlined text-white text-3xl">view_in_ar</span>
         </div>
         <h1 className="text-3xl font-bold text-[#131b2e] tracking-tight mb-1">
           LiveVolume

@@ -117,9 +117,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-[100dvh] w-full bg-slate-900 flex items-center justify-center sm:py-6">
+    <div className="min-h-[100dvh] w-full bg-[#faf8ff] sm:bg-slate-900 flex items-center justify-center sm:py-6">
       {/* Phone container wrapper */}
-      <div className="w-full max-w-[420px] min-h-[100dvh] sm:min-h-[850px] sm:max-h-[900px] sm:rounded-[36px] bg-[#faf8ff] shadow-2xl relative flex flex-col overflow-hidden sm:border-8 sm:border-slate-800">
+      <div className="w-full sm:max-w-[420px] h-[100dvh] sm:min-h-[850px] sm:max-h-[900px] sm:rounded-[36px] bg-[#faf8ff] sm:shadow-2xl relative flex flex-col overflow-hidden sm:border-8 sm:border-slate-800">
         {/* Main View Port */}
         <main className="flex-1 flex flex-col w-full overflow-y-auto no-scrollbar relative">
           {renderScreen()}
