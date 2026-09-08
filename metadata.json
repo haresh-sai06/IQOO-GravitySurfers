@@ -1,0 +1,7 @@
+{
+  "name": "LiveVolume",
+  "description": "Spatial 3D video calling application with real-time on-device depth, interactive holographic calls, contacts directory, and settings.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
